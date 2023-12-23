@@ -1,0 +1,164 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": ["Hola", "Buenos días", "Buenas tardes", "Saludos", "Hey"],
+            "responses": ["¿Hola, qué tal? Soy un chatbot diseñado para ayudarte a mejorar tus calificaciones. ¿En qué puedo ayudarte hoy?", "¡Hey amigo! Soy el chatbot que te dará información sobre cómo mejorar tus calificaciones. ¿En qué puedo ayudarte?"]
+        },
+        {
+            "tag": "horas",
+            "patterns": ["cuánto tiempo debo estudiar", "tiempo para estudiar", "estudiar mas tiempo"],
+            "responses": ["El tiempo de estudio necesario depende del material. Crea un horario y toma breves descansos para mantener la concentración.", "Establece un horario de estudio y evita distracciones para ser más eficiente."]
+        },
+        {
+            "tag": "Momento-estudio",
+            "patterns": ["mejor momento de estudio", "mejor hora para el estudio"],
+            "responses": ["El mejor momento para estudiar varía, encuentra el que te funcione mejor.", "No hay una hora específica para estudiar, pero busca un ambiente tranquilo y sin distracciones."]
+        },
+        {
+            "tag": "concentracion",
+            "patterns": ["concentro", "concentrarse","necesito concentrarme mas"],
+            "responses": ["Elimina distracciones y ten a mano solo el material de estudio.", "La música relajante puede ayudar a la concentración si te funciona."]
+        },
+        {
+            "tag": "Mejorar notas",
+            "patterns": ["cómo mejorar mis notas", "mejorar mis notas"],
+            "responses": ["Establece metas de estudio realistas y busca tutorías para temas que no comprendas.", "Accede a recursos adicionales y solicita ayuda si es necesario."]
+        },
+        {
+            "tag": "Olvida",
+            "patterns": ["olvido todo", "se me olvida todo"],
+            "responses": ["Prueba la técnica de asociación para recordar mejor.", "Asocia palabras cotidianas con tu material de estudio o crea canciones para memorizar."]
+        },
+        {
+            "tag": "Estrategias",
+            "patterns": ["dame estrategias", "qué me recomiendas"],
+            "responses": ["Utiliza tarjetas de memoria (flashcards) para repasar conceptos.", "Anota palabras clave que te ayuden a recordar."]
+        },
+        {
+            "tag": "Nervios",
+            "patterns": ["tengo nervios antes del examen", "tengo estrés", "tengo ansiedad"],
+            "responses": ["La respiración profunda y la meditación pueden ayudarte a calmarte.", "Confía en tu preparación y en lo que has estudiado."]
+        },
+        {
+            "tag": "Estudio eficiente",
+            "patterns": ["eficiente", "eficiencia"],
+            "responses": ["Prioriza los temas más importantes para tu examen.", "Organiza tus estudios de lo más a lo menos importante."]
+        },
+        {
+            "tag": "Motivacion",
+            "patterns": ["neceito motivacion", "dame motivacion","me falta motivacion"],
+            "responses": ["Recuerda tus metas académicas a largo plazo para mantenerte motivado.", "Ten presente por qué estudias y el futuro que deseas."]
+        },
+        {
+            "tag": "Consejos",
+            "patterns": ["consejos para mantenerme enfocado", "consejos"],
+            "responses": ["Celebra tus logros pequeños a medida que avanzas en tu estudio.", "Establece metas claras y trabaja constantemente hacia ellas."]
+        },
+        {
+            "tag": "Abrumación",
+            "patterns": ["me siento abrumado", "mucho material", "temas largos"],
+            "responses": ["Divide el material en secciones más pequeñas y aborda una a la vez.", "Estudia por partes para evitar sentirte abrumado."]
+        },
+        {
+            "tag": "Ventajas",
+            "patterns": ["ventajas de estudiar en grupos", "estudiar en grupo"],
+            "responses": ["El estudio en grupo puede ser efectivo para discutir y reforzar conceptos.", "La interacción con compañeros de estudio puede facilitar el aprendizaje."]
+        },
+        {
+            "tag": "Descanso",
+            "patterns": ["descanso", "descansar"],
+            "responses": ["Asegúrate de dormir de 7 a 9 horas por noche para un rendimiento óptimo.", "Descansa lo necesario para mantener un buen desempeño."]
+        },
+        {
+            "tag": "Agotamiento",
+            "patterns": ["evitar agotamiento", "cansancio"],
+            "responses": ["Programa descansos regulares durante el estudio para evitar el agotamiento.", "Realiza pausas cortas para mantenerte fresco."]
+        },
+        {
+            "tag": "Examen oral",
+            "patterns": ["examen oral", "preparación oral", "oral"],
+            "responses": ["Practica tu presentación en voz alta varias veces antes del examen.", "Mantén contacto visual y habla con confianza durante la presentación oral."]
+        },
+        {
+            "tag": "Afrontar",
+            "patterns": ["afrontar mal resultado", "mal resultado", "resultado negativo"],
+            "responses": ["Analiza tus errores y utiliza la experiencia para mejorar en el futuro.", "Solicita retroalimentación del profesor para comprender tus áreas de mejora."]
+        },
+        {
+            "tag": "Toma de exámenes",
+            "patterns": ["exámenes de selección múltiple", "responder cada pregunta"],
+            "responses": ["Lee todas las preguntas antes de comenzar a responder.", "Distribuye tu tiempo de manera eficiente entre las preguntas del examen."]
+        },
+        {
+            "tag": "Aprendizaje en línea",
+            "patterns": ["recursos", "aprender en línea", "cursos en línea"],
+            "responses": ["Aprovecha recursos gratuitos para ampliar tu aprendizaje en línea.", "Busca plataformas de aprendizaje para expandir tus conocimientos."]
+        },
+        {
+            "tag": "Tomar apuntes",
+            "patterns": ["tomar apuntes", "apuntes","tomar anotaciones"],
+            "responses": ["Utiliza abreviaturas y símbolos para agilizar tus apuntes.", "Resalta conceptos importantes para una revisión efectiva."]
+        },
+        {
+            "tag": "Ansiedad",
+            "patterns": ["mejorar nervios en exámenes", "nervioso", "nerviosa"],
+            "responses": ["Practica ejercicios de respiración profunda antes del examen.", "Visualiza el éxito y mantén una actitud positiva."]
+        },
+        {
+            "tag": "Retroalimentación",
+            "patterns": ["importancia de retroalimentación", "ver apuntes"],
+            "responses": ["Utiliza la retroalimentación como una oportunidad para crecer y aprender de tus errores.", "No dudes en pedir retroalimentación a tus profesores."]
+        },
+        {
+            "tag": "Procrastinación",
+            "patterns": ["lidiar con la procrastinación", "dejar para último momento"],
+            "responses": ["Establece plazos y recompensas para mantenerte motivado.", "Divide las tareas en pasos más pequeños para que sean más manejables."]
+        },
+        {
+            "tag": "Bloqueo",
+            "patterns": ["presento bloqueo de información", "a veces no me acuerdo","no retengo informacion"],
+            "responses": ["Comienza escribiendo cualquier parte de la información que te resulte más fácil.", "Realiza una lluvia de ideas para liberar tu mente."]
+        },
+        {
+            "tag": "Organizar material",
+            "patterns": ["organizar material de estudio", "ordenar material"],
+            "responses": ["Utiliza carpetas, carpetas de anillas o aplicaciones de organización para mantener tus recursos en orden.", "Organiza tus documentos en un espacio limpio y, si es en línea, en carpetas en el escritorio."]
+        },
+        {
+            "tag": "Matemáticas",
+            "patterns": ["estudiar matemáticas", "ejercicios matemáticos"],
+            "responses": ["Practica regularmente resolviendo problemas matemáticos.", "Revisa ejemplos y busca recursos adicionales para comprender conceptos matemáticos."]
+        },
+        {
+            "tag": "Lectura",
+            "patterns": ["mejorar la lectura", "comprensión lectora"],
+            "responses": ["Lee lentamente y subraya las ideas clave mientras lees.", "Formula preguntas a medida que avanzas en la lectura para asegurarte de comprender el contenido."]
+        },
+        {
+            "tag": "Habilidad resolver problemas",
+            "patterns": ["enfrentar problemas académicos", "resolver problemas"],
+            "responses": ["Descompón los problemas en pasos más pequeños y aborda cada uno por separado.", "Practica la resolución de problemas regularmente para mejorar tus habilidades."]
+        },
+        {
+            "tag": "Planificacion-estudios",
+            "patterns": ["Cómo planificar mis estudios", "Mejorar la planificación de estudio"],
+            "responses": ["La planificación efectiva de tus estudios es clave para el éxito académico. Te recomiendo establecer un horario de estudio, priorizar tareas y definir metas claras.", "La planificación te ayudará a administrar tu tiempo de manera más eficiente. Crea un calendario de estudio y sé constante en su seguimiento."]
+        },
+        {
+            "tag": "Gestion-tiempo",
+            "patterns": ["Cómo gestionar mi tiempo", "Mejorar la gestión del tiempo"],
+            "responses": ["La gestión del tiempo es esencial. Utiliza técnicas como la matriz de Eisenhower para priorizar tareas y evita la procrastinación.", "Aprender a gestionar tu tiempo te permitirá ser más productivo. Establece horarios, utiliza aplicaciones de seguimiento del tiempo y elimina las distracciones."]
+        },
+        {
+            "tag": "Agradecimiento",
+            "patterns": ["gracias por la ayuda", "muy útil"],
+            "responses": ["Me alegra que haya sido útil. ¿Tienes alguna otra pregunta?", "Estoy aquí para ayudarte. ¿En qué más puedo asistirte?"]
+        },
+        {
+            "tag": "Despedida",
+            "patterns": ["adiós", "chao", "hasta luego"],
+            "responses": ["De nada, espero que la información te haya sido útil. Estoy aquí para ayudarte.", "No dudes en contactarme si necesitas más ayuda. ¡Hasta luego y mucho éxito en tus estudios!"]
+        }
+    ]
+}
