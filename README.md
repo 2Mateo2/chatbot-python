@@ -41,7 +41,3 @@ Aqui es donde se inicializa la aplicacion
 
 3. Probarla desde un Herramientas de Desarrollo de API ya sea esta postman o insonia, incluso la puedes probar desde un formulario html
 Esta es la ruta: http://localhost:5000/chat
-
-Video donde se muestra la ejecucion del proyecto:
-
-https://www.youtube.com/watch?v=AdVja7p5YYs
